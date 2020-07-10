@@ -1,6 +1,6 @@
 <?php
     define('SITE_KEY', '6LeWN6sZAAAAAO64V6iRTBwaMHqicL2lG-uHXx4S');
-    define('SECRET_KEY','');
+    define('SECRET_KEY','6LeWN6sZAAAAAJ82H3SKrD1N1gYWvcyN85BwgAFL');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,7 +22,7 @@
     </header>
     <div class="container">
         <div class="flex-container">
-  <form id="form" action="/four.php" method="post">
+  <form id="form" action="/five.php" method="post">
   <input type="hidden" name="token_field" id="token_field"/>
   <input id="button" type="button" value="Enter" onclick="submitForm();" />
   </form>
