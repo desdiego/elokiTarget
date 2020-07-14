@@ -4,7 +4,7 @@
     <title>4080 eLoki Test</title>
     <?php 
     define('SITE_KEY', '6LeWN6sZAAAAAO64V6iRTBwaMHqicL2lG-uHXx4S');
-    define('SECRET_KEY','');
+    define('SECRET_KEY','6LeWN6sZAAAAAJ82H3SKrD1N1gYWvcyN85BwgAFL');
     
     if($_POST){
         function getResponse($SecretKey){
